@@ -113,7 +113,7 @@ if (isset($_GET["logout"])) {
                 return;
             }
 
-            fetch("https://n8n-9-dtnb.onrender.com/webhook-test/question"
+            fetch("https://n8n-9-dtnb.onrender.com/webhook/question"
                      {
                 method: "POST",
                 headers: {
@@ -158,6 +158,7 @@ if (isset($_GET["logout"])) {
 
 </body>
 </html>
+
 
 
 
